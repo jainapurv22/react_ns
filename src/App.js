@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Why from './components/Why';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 function App() {
   let component;
@@ -27,11 +28,23 @@ function App() {
           component = <Contact/>
           break
     }
+
+    const scrollToTop = () =>{
+      window.scrollTo({
+        top: 0, 
+        behavior: 'smooth'
+      });
+    }
   return (
     <div className="App text-[20px]">
       <Header/>
       {component}
       <Footer/>
+      <div className='fixed right-[30px] bottom-[30px] z-[50]'>
+        <button className='bg-[#060097] w-[35px] h-[35px] text-center rounded-[2px]' onClick={scrollToTop}>
+          <KeyboardArrowUpIcon sx={{color:'#fff'}}></KeyboardArrowUpIcon>
+        </button>
+      </div>
     </div>
   );
 }
