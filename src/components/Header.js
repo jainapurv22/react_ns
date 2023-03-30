@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <div className='w-[100%]'>
             <div className='flex'>
-                <div className='bg-[#433434] px-[10px] py-[15px] flex gap-[25px] w-[80%]'>
+                <div className='bg-[#F4F5F8] px-[10px] py-[5px] flex gap-[25px] w-[80%]'>
                     <div className='flex items-center gap-[15px]'>
                         <MailOutlineIcon sx={{color:'#D9157F',fontSize:'18px'}} ></MailOutlineIcon>
                         <p className='text-[#9B9FA7] text-[13px]'>info@nextsolutions.com</p>
