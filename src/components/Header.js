@@ -7,6 +7,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import Navbar from './Navbar';
 
 const Header = () => {
+
   return (
     <div className='flex'>
         <div className='pl-[35px] pr-[20px] w-[18%]'>
@@ -33,7 +34,12 @@ const Header = () => {
                     <a href=''><YouTubeIcon fontSize='small'></YouTubeIcon></a>
                 </div>
             </div>
-            <Navbar/>
+            <div className='flex justify-between px-[10px] items-center font-serif'>
+                <Navbar/>
+                <div>
+                    <button className='px-[70px] py-[7px] bg-[#D9157F] font-medium text-[#fff] text-[15px] rounded-[5px]'>Get Solution</button>
+                </div>
+            </div>
         </div>
     </div>
   )
