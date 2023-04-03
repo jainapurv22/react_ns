@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className='flex'>
         <div className='pl-[35px] pr-[20px] w-[18%]'>
-            <a href=''>
+            <a href='/'>
                 <img src='https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/Next_Solutions-removebg-preview-1.png' className='w-[160px] h-[124px]'></img>
             </a>
             
