@@ -37,7 +37,7 @@ const Header = () => {
             <div className='flex justify-between px-[10px] items-center font-serif'>
                 <Navbar/>
                 <div>
-                    <button className='px-[70px] py-[7px] bg-[#D9157F] font-medium text-[#fff] text-[15px] rounded-[5px]'>Get Solution</button>
+                    <button className='px-[70px] py-[7px] bg-[#D9157F] font-medium text-[#fff] text-[15px] rounded-[5px] dmsans'>Get Solution</button>
                 </div>
             </div>
         </div>

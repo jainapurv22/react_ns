@@ -12,7 +12,7 @@ const Home = () => {
   ]
 
   return (
-    <div>
+    <div className='spacesek'>
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/Untitled-design-5.png?time=1680489995")] bg-no-repeat bg-center bg-blend-overlay bg-[#000] bg-opacity-40 bg-cover h-[700px] pt-[150px]'>
         <h5 className='text-left text-[#482C8F] ml-[70px] mb-[15px] font-semibold'>Tech Management</h5>
         <p className='text-[#fff] text-[64px] font-semibold ml-[70px] mb-[20px] leading-[65px] text-left'>The Best Source for<br></br> IT Solutions</p>

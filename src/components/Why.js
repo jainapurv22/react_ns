@@ -3,9 +3,9 @@ import benefits from '../utils/benefits'
 
 const Why = () => {
   return (
-    <div>
+    <div className='spacesek'>
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/page-title.jpg?time=1680010227")] bg-no-repeat bg-center bg-cover flex justify-center items-center h-[422px]'>
-      <p className='text-[#fff] text-[60px] font-semifold'>Why Us</p>
+      <p className='text-[#fff] text-[60px] font-semibold'>Why Us</p>
       </div>
       <div className='my-[60px]'>
         <p className='text-[25px]'>Choosing NextSolutions.in for your IT needs offers the following benefits:</p>

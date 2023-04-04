@@ -3,9 +3,9 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='spacesek'>
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/page-title.jpg?time=1680010227")] bg-no-repeat bg-center bg-cover flex justify-center items-center h-[422px]'>
-      <p className='text-[#fff] text-[60px] font-semifold'>Contact Us</p>
+      <p className='text-[#fff] text-[60px] font-semibold'>Contact Us</p>
       </div>
       <div className='flex mt-[60px] mx-[110px] mb-[80px] gap-[15px]'>
         <div className='w-[44%] pr-[35px]'>

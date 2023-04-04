@@ -4,9 +4,9 @@ import talks from '../utils/talks'
 
 const About = () => {
   return (
-    <div>
+    <div className='spacesek'>
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/page-title.jpg?time=1680010227")] bg-no-repeat bg-center bg-cover flex justify-center items-center h-[422px]'>
-      <p className='text-[#fff] text-[60px] font-semifold'>About Us</p>
+      <p className='text-[#fff] text-[60px] font-semibold'>About Us</p>
       </div>
       <div className='px-[45px] pr-[30px] mt-[60px] flex gap-[120px] w-[100%]'>
         <div className=''>

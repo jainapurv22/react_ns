@@ -2,9 +2,9 @@ import React from 'react'
 
 const Blog2 = (props) => {
   return (
-    <div>
+    <div className='spacesek'>
         <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/page-title.jpg?time=1680010227")] bg-no-repeat bg-center bg-cover flex justify-center items-center h-[422px]'>
-            <p className='text-[#fff] text-[60px] font-semifold'>Necessity may give us best virtual court</p>
+            <p className='text-[#fff] text-[60px] font-semibold'>Necessity may give us best virtual court</p>
         </div>
         <div className='mt-[90px] ml-[200px] mb-[20px]'>
             <img src='https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/news2-672x448-1.jpg' alt=''></img>

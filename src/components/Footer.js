@@ -6,8 +6,8 @@ const Footer = () => {
     <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/4.png?time=1680140529")] bg-[#4E2B8F] bg-blend-overlay bg-opacity-60 bg-center bg-no-repeat bg-cover pt-[100px] pb-[50px] text-[#fff]'>
         <div className='flex mx-[200px]'>
             <div>
-                <p className='text-[23px]'>Explore</p>
-                <div className='pl-[25px] mt-[15px] text-[15px] flex flex-col gap-[18px] font-medium text-left'>
+                <p className='text-[23px] spacesek'>Explore</p>
+                <div className='pl-[25px] mt-[15px] text-[15px] flex flex-col gap-[18px] font-medium text-left dmsans'>
                 <div><a href='/' className={`${window.location.pathname==="/"?'text-[#000]':'text-[#fff]'}`}>Home</a></div>
                 <div><a href='/about' className={`${window.location.pathname==="/about"?'text-[#000]':'text-[#fff]'}`}>About Us</a></div>
                 <div><a href='/services' className={`${window.location.pathname==="/services"?'text-[#000]':'text-[#fff]'}`}>Services</a></div>
@@ -21,11 +21,11 @@ const Footer = () => {
               <a href=''>
                   <img src='https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/Next_Solutions-removebg-preview-1.png' className='w-[400px] h-[300px]'></img>
               </a>
-              <p className='mt-[20px]'>Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</p>
+              <p className='mt-[20px] dmsans'>Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</p>
             </div>
             <div className='ml-[30px] text-left'>
-              <p className='text-[23px] mb-[20px]'>Support</p>
-              <div className='text-[16px]'>
+              <p className='text-[23px] mb-[20px] spacesek'>Support</p>
+              <div className='text-[16px] dmsans'>
                 <a href='' className='mb-[35px]'>info@nextsolutions.in</a><br></br>
                 <a href='' className='mb-[35px]'>Privacy Policy</a><br></br>
                 <a href=''>Refund Policy</a>
