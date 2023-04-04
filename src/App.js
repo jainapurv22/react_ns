@@ -8,6 +8,9 @@ import Why from './components/Why';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Blog1 from './pages/Blog1';
+import Blog2 from './pages/Blog2';
+import Blog3 from './pages/Blog3';
 
 function App() {
   let component;
@@ -26,6 +29,15 @@ function App() {
           break
         case '/contact':
           component = <Contact/>
+          break
+        case '/10-ways-to-achieve-your-business-goal':
+          component = <Blog1/>
+          break
+        case '/necessity-may-give-us-best-virtual-court':
+          component = <Blog2/>
+          break
+        case '/top-crypto-exchange-influencers-in-china':
+          component = <Blog3/>
           break
     }
 

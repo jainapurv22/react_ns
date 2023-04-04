@@ -5,6 +5,12 @@ import services from '../utils/services'
 import blogs from '../utils/blogs'
 
 const Home = () => {
+  const urls = [
+    '10-ways-to-achieve-your-business-goal',
+    'necessity-may-give-us-best-virtual-court',
+    'top-crypto-exchange-influencers-in-china'
+  ]
+
   return (
     <div>
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/Untitled-design-5.png?time=1680489995")] bg-no-repeat bg-center bg-blend-overlay bg-[#000] bg-opacity-40 bg-cover h-[700px] pt-[150px]'>
@@ -93,11 +99,11 @@ const Home = () => {
         {blogs.map((blog,i)=>{
           return (
             <div className='w-[33.33%] border-0 border-solid border-[#818a91] shadow-[0_0_10px_0_rgba(0,0,0,0.15)] rounded-[3px]'>
-              <a href='/10-ways-to-achieve-your-business-goal'><img className='w-[100%] rounded-[3px]' src={blog.image} alt=''></img></a>
+              <a href={urls[i]}><img className='w-[100%] rounded-[3px]' src={blog.image} alt=''></img></a>
               <div className='mt-[30px] px-[25px]'>
-                <h3 className='font-semibold text-left'><a href='/10-ways-to-achieve-your-business-goal' className='text-[25px]'>{blog.title}</a></h3>
+                <h3 className='font-semibold text-left'><a href={urls[i]} className='text-[25px]'>{blog.title}</a></h3>
                 <div className='mt-[25px] text-left'>
-                  <a href='/10-ways-to-achieve-your-business-goal' className='text-[15px] font-medium text-[#482C8F]'>READ MORE</a>
+                  <a href={urls[i]} className='text-[15px] font-medium text-[#482C8F]'>READ MORE</a>
                 </div>
               </div>
               <div className='mt-[30px] px-[25px] py-[13px] text-[#7A7A7A] text-[15px] text-left border-solid border-t-[1px] border-[#eaeaea]'>
