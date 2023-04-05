@@ -28,7 +28,7 @@ const Footer = () => {
               <div className='text-[16px] dmsans'>
                 <a href='' className='mb-[35px]'>info@nextsolutions.in</a><br></br>
                 <a href='/privacy-policy' className='mb-[35px]'>Privacy Policy</a><br></br>
-                <a href=''>Refund Policy</a>
+                <a href='/refund-policy'>Refund Policy</a>
               </div>
             </div>
         </div>

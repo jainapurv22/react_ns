@@ -12,6 +12,7 @@ import Blog1 from './pages/Blog1';
 import Blog2 from './pages/Blog2';
 import Blog3 from './pages/Blog3';
 import Privacy from './components/Privacy';
+import Refund from './components/Refund';
 
 function App() {
   let component;
@@ -42,6 +43,9 @@ function App() {
           break
         case '/privacy-policy':
           component = <Privacy/>
+          break
+        case '/refund-policy':
+          component = <Refund/>
           break
     }
 
