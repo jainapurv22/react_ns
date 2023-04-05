@@ -27,7 +27,7 @@ const Footer = () => {
               <p className='text-[23px] mb-[20px] spacesek'>Support</p>
               <div className='text-[16px] dmsans'>
                 <a href='' className='mb-[35px]'>info@nextsolutions.in</a><br></br>
-                <a href='' className='mb-[35px]'>Privacy Policy</a><br></br>
+                <a href='/privacy-policy' className='mb-[35px]'>Privacy Policy</a><br></br>
                 <a href=''>Refund Policy</a>
               </div>
             </div>

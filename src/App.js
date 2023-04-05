@@ -11,6 +11,7 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Blog1 from './pages/Blog1';
 import Blog2 from './pages/Blog2';
 import Blog3 from './pages/Blog3';
+import Privacy from './components/Privacy';
 
 function App() {
   let component;
@@ -38,6 +39,9 @@ function App() {
           break
         case '/top-crypto-exchange-influencers-in-china':
           component = <Blog3/>
+          break
+        case '/privacy-policy':
+          component = <Privacy/>
           break
     }
 
