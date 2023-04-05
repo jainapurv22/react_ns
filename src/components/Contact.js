@@ -2,6 +2,12 @@ import React from 'react'
 import LanguageIcon from '@mui/icons-material/Language';
 
 const Contact = () => {
+  function SendMail() {
+    var link = "mailto:japurv27@gmail.com" +
+    "&subject=" + escape("This is subject") +
+    "&body=" + escape("This is body here");
+    window.location.href = link;
+    }
   return (
     <div className='spacesek'>
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/page-title.jpg?time=1680010227")] bg-no-repeat bg-center bg-cover flex justify-center items-center h-[422px]'>
@@ -32,7 +38,7 @@ const Contact = () => {
         <div className='pt-[20px] pb-[40px] bg-[#F8F8F8] px-[40px] text-left'>
           <p className='text-[35px] font-semibold mb-[25px] text-left'>Have Any Questions</p>
           <p className='text-[20px] mb-[32px]'>Feel free to contact us through Twitter or Facebook if you prefer!</p>
-          <form>
+          <form target='_blank' rel='nofollow' action="mailto: japurv27@gmail.com">
             <div className='flex  w-[100%] justify-between gap-[10px]'>
               <div className='w-[50%]'>
                 <input type="text" placeholder='Your Name' className='rounded-[5px] p-[15px] w-[100%]'></input>
@@ -47,7 +53,7 @@ const Contact = () => {
             <div className='mt-[10px] w-[100%] flex'>
                 <textarea type="text" placeholder='Your Comment' className='rounded-[5px] p-[15px] w-[100%]'></textarea>
             </div>
-            <button type='reset' className='px-[40px] mt-[10px] py-[13px] bg-[#D9157F] font-medium text-[#fff] text-[16px] tracking-wide rounded-[5px]'>Send Message</button>
+            <button type='submit'  className='px-[40px] mt-[10px] py-[13px] bg-[#D9157F] font-medium text-[#fff] text-[16px] tracking-wide rounded-[5px]'>Send Message</button>
           </form>
           
         </div>
