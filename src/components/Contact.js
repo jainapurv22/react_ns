@@ -13,8 +13,8 @@ const Contact = () => {
       <div className='bg-[url("https://4ni06c.n3cdn1.secureserver.net/wp-content/uploads/2023/03/page-title.jpg?time=1680010227")] bg-no-repeat bg-center bg-cover flex justify-center items-center h-[422px]'>
       <p className='text-[#fff] text-[60px] font-semibold'>Contact Us</p>
       </div>
-      <div className='min-[767px]:flex mt-[60px] min-[767px]:mx-[110px] mb-[80px] gap-[15px]'>
-        <div className='min-[767px]:w-[44%] min-[767px]:pr-[35px] max-[767px]:pr-[15px] max-[767px]:pl-[10px]'>
+      <div className='min-[767px]:flex mt-[60px] md:mx-[110px]  mb-[80px] gap-[15px]'>
+        <div className='min-[767px]:w-[44%] sm:max-md:w-[56%] min-[767px]:pr-[25px] max-sm:pr-[15px] max-md:pl-[10px]'>
           <p className='text-[35px] font-semibold mb-[25px] text-left'>Contact Us</p>
           <p className='text-left text-[20px] leading-[32px]'>At NextSolutions.in, we are dedicated to providing our clients with the best IT services available. Contact us today to 
           learn more about how we can help your business thrive.</p>
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className='pt-[20px] pb-[40px] bg-[#F8F8F8] px-[40px] text-left max-[767px]:mr-[50px]'>
+        <div className='pt-[20px] pb-[40px] bg-[#F8F8F8] px-[40px] text-left max-md:mr-[50px]'>
           <p className='text-[35px] font-semibold mb-[25px] text-left'>Have Any Questions</p>
           <p className='text-[20px] mb-[32px]'>Feel free to contact us through Twitter or Facebook if you prefer!</p>
           <form target='_blank' rel='nofollow' action="mailto: japurv27@gmail.com">
