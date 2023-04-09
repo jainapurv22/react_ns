@@ -53,11 +53,11 @@ const Header = () => {
         </div>
         {menu&&
                 <div className='z-20 duration-350 ease-in md:hidden bg-[#000] w-[100%] max-sm:border-t border-black text-[16px] font-medium dmsans text-left text-[#494c4f]'>
-                    <div className={`${window.location.pathname==="/"?'bg-[#e8c204]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-350 ease-out hover:ease-in`}><a href='/' className='block py-[9px] pl-[20px]'>Home</a></div>
-                    <div className={`${window.location.pathname==="/about"?'bg-[#e8c204]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/about' className='block py-[9px] pl-[20px]'>About Us</a></div>
-                    <div className={`${window.location.pathname==="/services"?'bg-[#e8c204]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/services' className='block py-[9px] pl-[20px]'>Services</a></div>
-                    <div className={`${window.location.pathname==="/why"?'bg-[#e8c204]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/why' className='block py-[9px] pl-[20px]'>Why Us</a></div>
-                    <div className={`${window.location.pathname==="/contact"?'bg-[#e8c204] text-[#f9f9f9]':'bg-[#fff]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/contact' className='block py-[9px] pl-[20px]'>Contact Us</a></div>
+                    <div className={`${window.location.pathname==="/"?'bg-[#e8c204] text-[#fff]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-350 ease-out hover:ease-in`}><a href='/' className='block py-[9px] pl-[20px]'>Home</a></div>
+                    <div className={`${window.location.pathname==="/about"?'bg-[#e8c204] text-[#fff]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/about' className='block py-[9px] pl-[20px]'>About Us</a></div>
+                    <div className={`${window.location.pathname==="/services"?'bg-[#e8c204] text-[#fff]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/services' className='block py-[9px] pl-[20px]'>Services</a></div>
+                    <div className={`${window.location.pathname==="/why"?'bg-[#e8c204] text-[#fff]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/why' className='block py-[9px] pl-[20px]'>Why Us</a></div>
+                    <div className={`${window.location.pathname==="/contact"?'bg-[#e8c204] text-[#fff]':'bg-[#f9f9f9]'} hover:bg-[#e8c204] hover:text-[#fff] duration-300 ease-out hover:ease-in`}><a href='/contact' className='block py-[9px] pl-[20px]'>Contact Us</a></div>
                 </div>
         }
     </div>
