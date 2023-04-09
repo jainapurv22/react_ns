@@ -8,7 +8,7 @@ const Why = () => {
       <p className='text-[#fff] text-[60px] font-semibold'>Why Us</p>
       </div>
       <div className='my-[60px]'>
-        <p className='text-[25px]'>Choosing NextSolutions.in for your IT needs offers the following benefits:</p>
+        <p className='text-[25px] max-sm:mx-[10px] dmsans'>Choosing NextSolutions.in for your IT needs offers the following benefits:</p>
       </div>
       <div className='sm:flex sm:mx-[20px] max-sm:mx-[5px] justify-center mt-[120px] gap-[10px] mb-[100px]'>
         {benefits.map((benefit,i)=>{
