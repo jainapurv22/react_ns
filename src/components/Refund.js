@@ -2,18 +2,18 @@ import React from 'react'
 
 const Refund = () => {
   return (
-    <div className='pl-[170px] pr-[160px] pt-[50px] pb-[50px] inter'>
+    <div className='md:pl-[170px] md:pr-[140px] max-md:px-[20px] max-md:pt-[0px] pt-[50px] pb-[50px] inter'>
         <div className='text-left leading-[30px]'>
-            <p className='text-[#1e293b] font-semibold text-[32px]'>Refund Policy</p>
-            <p className='mt-[25px] text-[rgb(103,118,142)]'>Last Updated: <strong>30th Mar 2023</strong></p>
-            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px]'>At Next Solutions (“we”, “us”, or “our”), we value our 
+            <p className='text-[#1e293b] font-semibold text-[32px] max-md:text-[30px] max-md:font-medium'>Refund Policy</p>
+            <p className='mt-[25px] text-[rgb(103,118,142)] max-md:text-[16px]'>Last updated: <strong>30th Mar 2023</strong></p>
+            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px] max-md:text-[16px]'>At Next Solutions (“we”, “us”, or “our”), we value our 
             customers and aim to provide exceptional IT services through our nextsolutions.in website (the “Service”). This Refund 
             Policy outlines our commitment to customer satisfaction and the process for requesting a refund in accordance with this 
             policy.</p>
-            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px]'>Please read this policy carefully before purchasing any of 
+            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px] max-md:text-[16px]'>Please read this policy carefully before purchasing any of 
             our products or services. By using our Service, you agree to the terms and conditions of this Refund Policy.</p>
         </div>
-        <div className='text-left mt-[20px] text-[18px] text-[rgb(103,118,142)]'>
+        <div className='text-left mt-[20px] text-[18px] max-md:text-[16px] text-[rgb(103,118,142)]'>
             <ol className='mt-[25px] text-[rgb(103,118,142)] list-decimal pl-[40px]'>
                 <li><strong>Refund Eligibility</strong></li>
             </ol>

@@ -2,17 +2,17 @@ import React from 'react'
 
 const Privacy = () => {
   return (
-    <div className='pl-[170px] pr-[140px] pt-[50px] pb-[50px] inter'>
-        <div className='text-left'>
-            <p className='text-[#1e293b] font-semibold text-[32px]'>Privacy Policy</p>
-            <p className='text-[#1e293b] mt-[20px] font-semibold text-[48px]'>Who we are</p>
-            <p className='mt-[20px] text-[rgb(103,118,142)]'>Our website address is: https://nextsolutions.in</p>
+    <div className='md:pl-[170px] md:pr-[140px] max-md:px-[20px] max-md:pt-[0px] pt-[50px] pb-[50px] inter'>
+        <div className='text-left inter'>
+            <p className='text-[#1e293b] font-semibold text-[32px] max-md:text-[30px] max-md:font-medium'>Privacy Policy</p>
+            <p className='text-[#1e293b] mt-[20px] font-semibold text-[48px] max-md:text-[26px] max-md:font-medium'>Who we are</p>
+            <p className='mt-[20px] text-[rgb(103,118,142)] max-md:text-[16px]'>Our website address is: https://nextsolutions.in</p>
         </div>
-        <div className='text-left mt-[20px] text-[18px] text-[rgb(103,118,142)]'>
-            <p className='text-[#1e293b] font-semibold text-[48px]'>Policy Details</p>
-            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px]'>Next Solutions (“we”, “us”, or “our”) operates the nextsolutions.in website (the “Service”). This page informs you 
+        <div className='text-left mt-[20px] text-[18px] max-md:text-[17px] text-[rgb(103,118,142)]'>
+            <p className='text-[#1e293b] font-semibold text-[48px] max-md:text-[26px] max-md:font-medium'>Policy Details</p>
+            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px] max-md:text-[17px]'>Next Solutions (“we”, “us”, or “our”) operates the nextsolutions.in website (the “Service”). This page informs you 
             of our policies regarding the collection, use, and disclosure of personal information when you use our Service.</p>
-            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px]'>We are committed to protecting your privacy and using any personal 
+            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px] max-md:text-[17px]'>We are committed to protecting your privacy and using any personal 
             information you provide responsibly. By using our Service, you agree to the collection and use of information in 
             accordance with this policy.</p>
             <ol className='mt-[20px] text-[rgb(103,118,142)] list-decimal pl-[40px]'>
@@ -93,10 +93,10 @@ const Privacy = () => {
             <ol className='mt-[30px] text-[rgb(103,118,142)] list-decimal pl-[40px]' start="10">
                 <li><strong>Embedded content from other websites</strong></li>
             </ol>
-            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px]'>Articles on this site may include embedded content 
+            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px] max-md:text-[17px]'>Articles on this site may include embedded content 
             (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if 
             the visitor has visited the other website.</p>
-            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px]'>These websites may collect data about you, use cookies, 
+            <p className='text-[rgb(103,118,142)] mt-[20px] text-[18px] max-md:text-[17px]'>These websites may collect data about you, use cookies, 
             embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your 
             interaction with the embedded content if you have an account and are logged in to that website.</p>
         </div>
