@@ -1,12 +1,53 @@
-import React from 'react'
+import React, { useState,useRef } from 'react'
+import axios from "axios"
 import LanguageIcon from '@mui/icons-material/Language';
 
 const Contact = () => {
-  function SendMail() {
-    var link = "mailto:japurv27@gmail.com" +
-    "&subject=" + escape("This is subject") +
-    "&body=" + escape("This is body here");
-    window.location.href = link;
+  const [name,setName] = useState('');
+  const [mail,setMail] = useState('');
+  const [site,setSite] = useState('');
+  const [comment,setComment] = useState('');
+  const ref = useRef(null);
+
+  const handlenamechange=(e)=>{
+    setName(e.target.value);
+  }
+  const handlemailchange=(e)=>{
+    setMail(e.target.value);
+  }
+  const handlesitechange=(e)=>{
+    setSite(e.target.value);
+  }
+  const handlecommentchange=(e)=>{
+    setComment(e.target.value);
+  }
+  const sendMail=(e)=> {
+    e.preventDefault();
+    let data = JSON.stringify({
+      "name": name,
+      "email": mail,
+      "website": site,
+      "comment": comment,
+    });
+    e.target.reset();
+    
+    let config = {
+      method: 'post',
+      maxBodyLength: Infinity,
+      url: 'https://testp247apis.nextsolutions.in/api/nextsolutions-form',
+      headers: { 
+        'Content-Type': 'application/json'
+      },
+      data : data
+    };
+    
+    axios.request(config)
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
     }
   return (
     <div className='spacesek'>
@@ -38,20 +79,20 @@ const Contact = () => {
         <div className='pt-[20px] pb-[40px] bg-[#F8F8F8] px-[40px] text-left max-md:mr-[50px]'>
           <p className='text-[35px] font-semibold mb-[25px] text-left'>Have Any Questions</p>
           <p className='text-[20px] mb-[32px]'>Feel free to contact us through Twitter or Facebook if you prefer!</p>
-          <form target='_blank' rel='nofollow' action="mailto: japurv27@gmail.com">
+          <form onSubmit={sendMail}>
             <div className='sm:flex w-[100%] justify-between gap-[10px]'>
               <div className='sm:w-[50%]'>
-                <input type="text" placeholder='Your Name' className='rounded-[5px] p-[15px] w-[100%]'></input>
+                <input type="text" placeholder='Your Name' id='name' name='name' onChange={handlenamechange} className='rounded-[5px] p-[15px] w-[100%]'></input>
               </div>
               <div className='sm:w-[50%] max-sm:mt-[10px]'>
-                <input type="email" required='required'  placeholder='Enter Email' className='rounded-[5px] p-[15px] w-[100%] focus:border-[1px] focus:border-solid focus:border-[#69727d]'></input>
+                <input type="email" required='required'  placeholder='Enter Email' id='email' name='email' onChange={handlemailchange} className='rounded-[5px] p-[15px] w-[100%] focus:border-[1px] focus:border-solid focus:border-[#69727d]'></input>
               </div>
             </div>
             <div className='mt-[10px] w-[100%] flex'>
-                <input type="text" required='required' placeholder='Website' className='rounded-[5px] p-[15px] w-[100%]'></input>
+                <input type="text" required='required' placeholder='Website' id='website' name='website' onChange={handlesitechange} className='rounded-[5px] p-[15px] w-[100%]'></input>
             </div>
             <div className='mt-[10px] w-[100%] flex'>
-                <textarea type="text" placeholder='Your Comment' className='rounded-[5px] p-[15px] w-[100%]'></textarea>
+                <textarea type="text" placeholder='Your Comment' id='comment' name='comment' onChange={handlecommentchange} className='rounded-[5px] p-[15px] w-[100%]'></textarea>
             </div>
             <button type='submit'  className='px-[40px] mt-[10px] py-[13px] bg-[#D9157F] font-medium text-[#fff] text-[16px] tracking-wide rounded-[5px]'>Send Message</button>
           </form>
