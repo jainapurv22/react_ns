@@ -32,8 +32,8 @@ const Footer = () => {
               </div>
             </div>
         </div>
-        <div className='border border-dotted border-b-gray-200 mx-[150px] mt-[80px] max-md:mx-[25px]'></div>
-        <div className='pl-[15px] mt-[40px] flex mx-[200px] max-md:mx-[0px] max-md:pl-[30px]'>
+        <div className='border border-dotted border-b-gray-900 mx-[200px] mt-[80px] max-md:mx-[25px]'></div>
+        <div className='pl-[15px] mt-[30px] flex mx-[200px] max-md:mx-[0px] max-md:pl-[30px]'>
           <p className='text-[13px] text-[rgba(255,255,255,0.5)] roboto'>© All rights reserved</p>
         </div>
     </div>
